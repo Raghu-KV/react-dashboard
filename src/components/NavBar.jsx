@@ -10,8 +10,8 @@ function NavBar() {
   return (
     <div>
       <div className="h-20 border-b">
-        <div className="flex items-center justify-between h-20 w-full px-5">
-          <div className="flex items-center rounded-full px-6 py-3 bg-blue-100">
+        <div className="flex items-center justify-between h-20 w-full px-5 gap-10">
+          <div className="flex items-center rounded-full px-6 py-3 bg-blue-100 flex-1">
             <input
               type="text"
               name=""
@@ -41,7 +41,7 @@ function NavBar() {
                 className="bg-rose-600 text-white rounded-full flex justify-center items-center min-w-full h-5 text-sm font-semibold absolute top-1
                right-[-12px] p-2"
               >
-                3
+                9+
               </div>
             </div>
             <div className="cursor-pointer flex items-center relative">
