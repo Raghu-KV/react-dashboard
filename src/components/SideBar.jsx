@@ -13,7 +13,7 @@ import { MdOutlineLogout } from "react-icons/md";
 function SideBar() {
   return (
     <div className="border-r basis-1/6 font-poppins h-screen bg-white">
-      <div className="p-6 border-b flex justify-center items-center sticky top-0 bg-white">
+      <div className="h-20 border-b flex justify-center items-center bg-white">
         <span className="font-bold text-xl text-blue-600 ">Azen Admin</span>
       </div>
       <div className={``}>
