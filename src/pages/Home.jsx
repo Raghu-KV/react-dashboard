@@ -1,6 +1,10 @@
 import SideBar from "../components/SideBar";
 import NavBar from "../components/NavBar";
 import Wiget from "../components/Wiget";
+//icons
+import { MdKeyboardDoubleArrowUp } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
+import { MdOutlinePerson } from "react-icons/md";
 function Home() {
   return (
     <div className="flex">
