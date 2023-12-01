@@ -67,6 +67,8 @@ function Home() {
           <Featured />
           <Chart />
         </div>
+        {/* Table */}
+        <div></div>
       </div>
     </div>
   );

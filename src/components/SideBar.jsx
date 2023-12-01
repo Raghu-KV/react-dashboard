@@ -12,7 +12,10 @@ import { MdOutlinePets } from "react-icons/md";
 import { MdOutlineLogout } from "react-icons/md";
 function SideBar() {
   return (
-    <div className="border-r basis-1/6 font-poppins h-screen bg-white">
+    <div
+      className="border-r basis-1/6 font-poppins h-screen bg-white sticky top-0 overflow-y-scroll pb-6 test 
+     duration-200"
+    >
       <div className="h-20 border-b flex justify-center items-center bg-white">
         <span className="font-bold text-xl text-blue-600 ">Azen Admin</span>
       </div>

@@ -1,3 +1,27 @@
+.test::-webkit-scrollbar{
+    width: 8px;
+    }
+
+.test:hover::-webkit-scrollbar-thumb{
+    background-color: rgb(112, 112, 112);
+}
+
+
+.test::-webkit-scrollbar-track{
+    background-color: rgb(230, 229, 229);
+    
+}
+.test::-webkit-scrollbar-thumb{
+   background-color: rgba(112, 112, 112, 0.829);
+   border-radius: 50px;
+   border: transparent;
+   
+}
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
