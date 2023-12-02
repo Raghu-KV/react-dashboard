@@ -8,7 +8,7 @@ import { MdFormatListBulleted } from "react-icons/md";
 
 function NavBar() {
   return (
-    <div>
+    <div className="sticky top-0 z-10 bg-white shadow-lg">
       <div className="h-20 border-b">
         <div className="flex items-center justify-between h-20 w-full px-5 gap-10">
           <div className="flex items-center rounded-full px-6 py-3 bg-blue-100 flex-1">

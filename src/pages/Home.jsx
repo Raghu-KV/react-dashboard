@@ -10,6 +10,7 @@ import { MdOutlinePerson } from "react-icons/md";
 import { MdShoppingCart } from "react-icons/md";
 import { MdCurrencyRupee } from "react-icons/md";
 import { MdAccountBalanceWallet } from "react-icons/md";
+import Table from "./../components/Table";
 
 function Home() {
   const wigetData = [
@@ -54,21 +55,27 @@ function Home() {
   return (
     <div className="flex">
       <SideBar />
-      <div className="basis-5/6">
+      <div className="basis-5/6 font-poppins">
         <NavBar />
+
         {/* WIDGET */}
-        <div className="flex gap-4 px-6 py-4">
+        <div className="flex gap-4 px-6 py-2">
           {wigetData.map((data) => (
             <Wiget data={data} key={data.title} />
           ))}
         </div>
         {/* CHARTS */}
-        <div className="px-6 flex gap-4">
+        <div className="px-6 py-2 flex gap-4">
           <Featured />
           <Chart />
         </div>
         {/* Table */}
-        <div className="h-screen"></div>
+        <div className="px-6 py-2">
+          <div className="border-2 rounded-xl p-3">
+            <h2 className="font-bold text-gray-500">Latest Transctions</h2>
+            <Table />
+          </div>
+        </div>
       </div>
     </div>
   );
