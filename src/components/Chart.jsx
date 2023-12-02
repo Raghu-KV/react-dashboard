@@ -39,7 +39,7 @@ function Chart() {
     <div className="p-3 border-2 rounded-xl basis-4/6  text-gray-500">
       <h2 className="font-bold mb-8">Last 6 months Revenue</h2>
 
-      <ResponsiveContainer width="100%" aspect={2.5 / 1}>
+      <ResponsiveContainer width="100%" height={"75%"}>
         <AreaChart
           width={730}
           height={500}

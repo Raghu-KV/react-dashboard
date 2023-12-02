@@ -68,7 +68,7 @@ function Home() {
           <Chart />
         </div>
         {/* Table */}
-        <div></div>
+        <div className="h-screen"></div>
       </div>
     </div>
   );
