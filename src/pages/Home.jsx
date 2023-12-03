@@ -10,7 +10,7 @@ import { MdOutlinePerson } from "react-icons/md";
 import { MdShoppingCart } from "react-icons/md";
 import { MdCurrencyRupee } from "react-icons/md";
 import { MdAccountBalanceWallet } from "react-icons/md";
-import Table from "./../components/Table";
+import OrdersTable from "../components/OrdersTable";
 
 function Home() {
   const wigetData = [
@@ -73,7 +73,7 @@ function Home() {
         <div className="px-6 py-2">
           <div className="border-2 rounded-xl p-3">
             <h2 className="font-bold text-gray-500">Latest Transctions</h2>
-            <Table />
+            <OrdersTable />
           </div>
         </div>
       </div>

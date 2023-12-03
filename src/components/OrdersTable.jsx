@@ -1,5 +1,5 @@
 import { MdOpenInNew } from "react-icons/md";
-function Table() {
+function OrdersTable() {
   const tableData = [
     {
       id: 7895,
@@ -123,14 +123,12 @@ function Table() {
               Payment Method
             </th>
             <th className="border-b border-gray-400 font-semibold">Status</th>
-            <th className="border-b border-gray-400 font-semibold">
-              detail report
-            </th>
+            <th className="border-b border-gray-400 font-semibold">Action</th>
           </tr>
         </thead>
         <tbody className="text-center">
           {tableData.map((data) => (
-            <tr className="hover:bg-gray-200">
+            <tr className="hover:bg-gray-200" key={data.id}>
               <td className="border-b border-gray-400 p-4">{data.id}</td>
               <td className="border-b border-gray-400">{data.product}</td>
               <td className="border-b border-gray-400">{data.customer}</td>
@@ -138,8 +136,9 @@ function Table() {
               <td className="border-b border-gray-400">{data.amount}</td>
               <td className="border-b border-gray-400">{data.paymentMode}</td>
               <td className="border-b border-gray-400">{data.status}</td>
-              <td className="border-b border-gray-400 ">
-                <MdOpenInNew className="mx-auto cursor-pointer" size={22} />
+              <td className="border-b border-gray-400 cursor-pointer">
+                <MdOpenInNew className="mx-auto inline-block mr-2" size={22} />
+                View
               </td>
             </tr>
           ))}
@@ -149,4 +148,4 @@ function Table() {
   );
 }
 
-export default Table;
+export default OrdersTable;
