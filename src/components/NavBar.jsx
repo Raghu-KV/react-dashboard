@@ -38,7 +38,8 @@ function NavBar() {
             <div className="cursor-pointer flex items-center relative">
               <MdNotifications size={25} />
               <div
-                className="bg-rose-600 text-white rounded-full flex justify-center items-center min-w-full h-5 text-sm font-semibold absolute top-1
+                className="bg-rose-600 text-white rounded-full flex justify-center items-center min-w-full h-5 
+                text-sm font-semibold absolute top-1
                right-[-12px] p-2"
               >
                 9+
@@ -47,7 +48,8 @@ function NavBar() {
             <div className="cursor-pointer flex items-center relative">
               <MdChat size={25} />
               <div
-                className="bg-rose-600 text-white rounded-full flex justify-center items-center min-w-full h-5 text-sm font-semibold absolute top-1
+                className="bg-rose-600 text-white rounded-full flex justify-center items-center min-w-full h-5
+                 text-sm font-semibold absolute top-1
                right-[-12px] p-2"
               >
                 2
